@@ -10,9 +10,9 @@ module.exports = {
   mode: 'production',
 
   entry: {
-    // 'phaser-custom-odek.3.60.0-beta.4': `./phaser-custom-odek.js`,
-    'phaser-custom-odek.3.60.0-beta.4.min': './phaser-custom-odek.js',
-    'phaser-custom-nissen.3.60.0-beta.4.min': './phaser-custom-nissen.js',
+    // 'phaser-custom-odek': `./phaser-custom-odek.js`,
+    'phaser-custom-odek.min': './phaser-custom-odek.js',
+    'phaser-custom-nissen.min': './phaser-custom-nissen.js',
   },
 
   resolve: {
