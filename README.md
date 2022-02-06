@@ -1,5 +1,10 @@
 # Creating Custom Phaser 3 Builds
 
+## Josteins
+
+Kan bruke jsdelivr for å få cdn:
+https://cdn.jsdelivr.net/gh/jostein-skaar/phaser3-custom-build@3.60.0-beta.4/dist/phaser-custom-odek.min.js
+
 By default, Phaser will include pretty much everything, especially if you just require or import the main entry point. This will add 980KB of minified JavaScript to your bundle which is a considerable amount, especially if you aren't even using a large chunk of it. However, you can choose what you actually need in your bundle to a very granular degree. It just takes a little configuration to do it.
 
 To create custom builds you're going to need [webpack](https://webpack.js.org/). If you've no experience with webpack it'd be best to go and learn how it works before carrying on, as Phaser is built specifically with it. Other bundlers, like Parcel, may also work but it's up to you to translate this guide into their respective formats.
